@@ -1,10 +1,14 @@
+ol > ul, div > p, footer {
+  font-size: 1.2;
+  font-style: italic; }
+
 body {
   background-image: linear-gradient(-90deg, #DDA0DD, #F08080); }
 
 @media (min-width: 480px) {
   h1 {
     font-size: 1.5rem;
-    font-style: italic;
+    font-style: oblique;
     color: purple;
     text-align: center;
     text-decoration: underline; }
@@ -23,24 +27,21 @@ body {
     content: "Lets discover!!"; } }
 div > ol {
   font-size: 1.3rem;
-  font-style: italic;
+  font-style: oblique;
   color: #000080; }
 
 ol > ul {
-  font-size: 1.2rem;
-  color: #006400;
-  font-style: italic; }
+  color: #006400; }
 
 div h2 {
   font-size: 1.4rem;
-  font-style: italic;
+  font-style: oblique;
   color: purple;
   background-color: #FFA07A;
   width: 30%; }
 
 div > p {
-  color: #4B0082;
-  font-size: 1.2rem; }
+  color: #4B0082; }
 
 .image {
   width: 140px;
@@ -49,7 +50,6 @@ div > p {
 
 footer {
   margin: 40px;
-  text-align: right;
-  font-size: 1.5rem; }
+  text-align: right; }
 
 /*# sourceMappingURL=style2.css.map */

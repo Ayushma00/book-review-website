@@ -1,5 +1,9 @@
-$font: italic;
+$font:oblique;
 $text: center;
+%inheriter{
+  font-size: 1.2;
+  font-style: italic;
+}
 
 body {
   background-image: linear-gradient(-90deg, #DDA0DD, #F08080);
@@ -38,9 +42,9 @@ div > ol {
 }
 
 ol > ul {
-  font-size: 1.2rem;
+  @extend %inheriter;
   color: #006400;
-  font-style: $font;
+
 }
 
 div h2 {
@@ -53,7 +57,7 @@ div h2 {
 
 div > p {
   color: #4B0082;
-  font-size: 1.2rem;
+    @extend%inheriter;
 }
 
 .image {
@@ -65,5 +69,5 @@ div > p {
 footer {
   margin: 40px;
   text-align: right;
-  font-size: 1.5rem;
+    @extend %inheriter;;
 }
