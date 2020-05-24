@@ -10,9 +10,7 @@ body {
     text-decoration: underline; }
 
   #one::after {
-    content: "Lets discover the magic."; }
-
-   }
+    content: "Lets discover the magic."; } }
 @media (max-width: 479px) {
   h1 {
     color: #800000;
@@ -23,7 +21,6 @@ body {
 
   #one::after {
     content: "Lets discover!!"; } }
-
 div > ol {
   font-size: 1.3rem;
   font-style: italic;
@@ -44,15 +41,15 @@ div h2 {
 div > p {
   color: #4B0082;
   font-size: 1.2rem; }
-  .image {
-    width: 25%;
-    float: left;
-    margin-right: 40px; }
 
+.image {
+  width: 140px;
+  float: left;
+  margin-right: 120px; }
 
 footer {
   margin: 40px;
-  text-align: center;
+  text-align: right;
   font-size: 1.5rem; }
 
 /*# sourceMappingURL=style2.css.map */

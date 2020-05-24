@@ -1,5 +1,10 @@
 body{
 
+  background-color: Coral;
+  text align:center;
+}
+#suggestion{
+
   background-image: url(signup.jpeg);
   background-size: cover;
   position: relative;
@@ -14,6 +19,11 @@ font-weight: bold;
 color: purple;
 text-shadow:  3px  2px #9932CC;
 
+}
+h4{
+  text-align: center;
+  font-style: oblique;
+  color: purple;
 }
 
 
