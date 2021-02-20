@@ -3,7 +3,7 @@
 # Static website using HTML and CSS(responsive)/inclusing SCSS
 
 # View site here --
-# https://ayushma99.github.io/project0_havard_uni/
+ https://ayushma00.github.io/project0_havard_uni/
 
 ## - This website is about the books and its reviews.
 # Index.html
