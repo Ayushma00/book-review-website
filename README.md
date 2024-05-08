@@ -5,7 +5,7 @@
 
 ## View the Website
 
-You can view the live website [here](https://ayushma00.github.io/project0_havard_uni/).
+You can view the live website [here](https://ayushma00.github.io/book-review-website/).
 
 ## Project Structure
 
