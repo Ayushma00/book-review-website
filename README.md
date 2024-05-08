@@ -1,21 +1,39 @@
-#  Project 0
 
-# Static website using HTML and CSS(responsive)/inclusing SCSS
+# Project 0: Static Book Reviews Website
 
-# View site here --
- https://ayushma00.github.io/project0_havard_uni/
+ This project is a static website developed using HTML, CSS (including SCSS), and Bootstrap framework. The website serves as a platform for book reviews and recommendations for book enthusiasts.
 
-## - This website is about the books and its reviews.
-# Index.html
-## - The first page ( index.html) is Sign Up page where the user signs up to become the member of this site.
+## View the Website
 
-# book.html
-## - The index .html leads to the main site called (books.html) where different books are available. It is made mobile responsive.
-## - It has inheritance and linked with the scss file and css file wth lots of selectors.
+You can view the live website [here](https://ayushma00.github.io/project0_havard_uni/).
 
-# table.html
-## - The third page is the table.html where the table of the reviews and the grid of books to be sold are placed.Also i have used bootstrap frameworks to create it.
+## Project Structure
 
-# contact.html
-## - The last part is the contact.html that has the suggestion box where the users can share their feedback about this site to us.
+- **index.html**: This is the landing page where users can sign up to become members of the website.
+- **book.html**: The main page where users can explore different books available. This page is mobile-responsive and utilizes inheritance with SCSS for styling.
+- **table.html**: This page displays a table of reviews and a grid of books available for sale. Bootstrap framework has been incorporated for layout and design.
+- **contact.html**: The contact page includes a suggestion box where users can share feedback about the website.
 
+## Features
+
+- **Responsive Design**: The website is designed to be responsive, ensuring optimal viewing experience across various devices.
+- **CSS with SCSS**: SCSS is used for styling, providing a more organized and maintainable stylesheet.
+- **Bootstrap Integration**: Bootstrap framework is utilized for creating responsive layouts and components.
+- **User Interaction**: Users can sign up, explore books, view reviews, and provide feedback through the contact page.
+
+## Usage
+
+To run the website locally, simply clone this repository and open the desired HTML file in a web browser.
+
+```bash
+git clone https://github.com/ayushma00/project0_havard_uni.git
+cd book-review-website
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request with any enhancements or bug fixes.
+
+## Acknowledgments
+
+This project is based on the CS50 Web Programming course. Special thanks to CS50 for providing the project idea, guidance, and  specifications.
